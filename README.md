@@ -1,4 +1,4 @@
-# Système de Gestion des Étudiants
+<h1 align='center'> Système de Gestion des Étudiants </h1>
 
 <img src='https://github.com/issaniang5/Application-de-Gestion-des-Etudiants/blob/main/Images/readme.gif' height=600px width=800px></img>
 
