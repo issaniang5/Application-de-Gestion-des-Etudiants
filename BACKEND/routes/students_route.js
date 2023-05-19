@@ -8,7 +8,7 @@ router.route('/add').post((req, res) => {
   const age = Number(req.body.age);
   const gender = req.body.gender;
 
-  //send this object through model to mongodb to store it in the database
+ //envoyez cet objet via le modèle à MongoDB pour le stocker dans la base de données
   const newStudent = new student({
     name,
     age,
