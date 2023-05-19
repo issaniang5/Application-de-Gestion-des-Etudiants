@@ -24,17 +24,17 @@ function Header() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/get">
-                  Home
+                Accueil
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/add">
-                  Create Student
+                Créer un étudiant
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/get/sid">
-                  Show a Student
+                Afficher un étudiant
                 </a>
               </li>
             </ul>

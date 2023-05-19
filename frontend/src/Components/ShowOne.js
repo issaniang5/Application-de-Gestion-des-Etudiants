@@ -52,7 +52,7 @@ const ShowOne = () => {
     <div className="container">
       <form>
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Nom</label>
           <input
             type="text"
             className="form-control"
@@ -63,7 +63,7 @@ const ShowOne = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="age">Age</label>
+          <label htmlFor="age">Âge</label>
           <input
             type="text"
             className="form-control"
@@ -74,7 +74,7 @@ const ShowOne = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="gender">Gender</label>
+          <label htmlFor="gender">Genre</label>
           <select
             className="form-control"
             id="gender"
@@ -82,13 +82,13 @@ const ShowOne = () => {
             value={user.gender}
             onChange={handleInputChange}
           >
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
+            <option value="Male">Homme</option>
+            <option value="Female">Femme</option>
           </select>
         </div>
         <br />
         <button onClick={handleFormSubmit} className="btn btn-primary">
-          Submit
+        Soumettre
         </button>
       </form>
     </div>

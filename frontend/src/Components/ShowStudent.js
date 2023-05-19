@@ -48,16 +48,16 @@ export default function ShowStudents() {
 
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>All students</h1>
+      <h1 style={{ textAlign: "center" }}>Tous les étudiants</h1>
       <div className="container">
         <table className="table ">
           <thead>
             <tr>
               <th scope="col"></th>
               <th scope="col">ID</th>
-              <th scope="col">Name</th>
-              <th scope="col">Age</th>
-              <th scope="col">Gender</th>
+              <th scope="col">Nom</th>
+              <th scope="col">Âge</th>
+              <th scope="col">Genre</th>
             </tr>
           </thead>
           {students.map((item, count = 0) => (
@@ -70,7 +70,7 @@ export default function ShowStudents() {
                 <td>{item.gender}</td>
                 <td>
                   <Link to={`/get/${item._id}`} className="btn btn-primary">
-                    Update
+                  Mettre à jour
                   </Link>
                   ;{" "}
                   <button
@@ -78,7 +78,7 @@ export default function ShowStudents() {
                     className="btn btn-danger"
                     onClick={() => deleteUser(item._id)}
                   >
-                    Delete
+                    Supprimer
                   </button>
                 </td>
               </tr>

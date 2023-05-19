@@ -46,7 +46,7 @@ export default function AddStudent() {
       <form>
         <div className="mb-3">
           <label for="name" className="form-label">
-            Student Name
+          Nom de l'étudiant
           </label>
           <input
             type="text"
@@ -73,7 +73,7 @@ export default function AddStudent() {
           />
         </div>
         <div>
-          <label for="gender">Select Your Gender</label>
+          <label for="gender">Sélectionnez votre sexe</label>
           <br />
           <div>
             <div className="form-check form-check-inline">
@@ -88,7 +88,7 @@ export default function AddStudent() {
                 }}
               />
               <label className="form-check-label" for="male">
-                Male
+              Homme
               </label>
             </div>
             <div className="form-check form-check-inline">
@@ -103,7 +103,7 @@ export default function AddStudent() {
                 }}
               />
               <label className="form-check-label" for="female">
-                Female
+              Femme
               </label>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function AddStudent() {
         <br />
         <div class="col-12">
           <button class="btn btn-primary" type="submit" onClick={sentData}>
-            Submit form
+          Soumettre le formulaire
           </button>
         </div>
       </form>
