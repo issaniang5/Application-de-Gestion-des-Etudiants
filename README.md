@@ -3,11 +3,7 @@
 <img src='https://github.com/issaniang5/Application-de-Gestion-des-Etudiants/blob/main/Images/readme.gif' height=600px width=800px></img>
 
 
-<details>
-<summary> About Project </summary>
-<div>
-<samp>
+
+<h1> About Project </h1>
+
 Ce projet comprend une opération CRUD complète de base utilisant la pile MERN (MongoDB, Express, React, Node.js). Des validations ont également été ajoutées à l'aide de SweetAlert 2.
-</samp>
-</div>
-</details>
